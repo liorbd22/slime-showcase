@@ -15,4 +15,5 @@ export default defineConfig({
     pages: [{ path: "/" }],
     prerender: { enabled: true, autoStaticPathsDiscovery: false },
   },
+  nitro: { output: { publicDir: "dist/client" } }
 });
